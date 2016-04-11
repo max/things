@@ -2,6 +2,9 @@
 
 <ul>
   {{#each model as |task|}}
-    <li>{{task}}</li>
+    <li>
+      {{task.description}}<br>
+      {{task.note}}
+    </li>
   {{/each}}
 </ul>
