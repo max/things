@@ -1,0 +1,5 @@
+@import "basscss";
+
+:root {
+  --h1: 1px;
+}
