@@ -1,0 +1,18 @@
+.task-x {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.task-x:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.note {
+  color: gray;
+}

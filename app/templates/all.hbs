@@ -1,10 +1,3 @@
 <h1>All Tasks</h1>
 
-<ul>
-  {{#each model as |task|}}
-    <li>
-      {{task.description}}<br>
-      {{task.note}}
-    </li>
-  {{/each}}
-</ul>
+{{task-list tasks=model}}
