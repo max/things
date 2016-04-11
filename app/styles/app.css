@@ -1,2 +1,1 @@
-@after-module './third-party/normalize';
-@after-module './third-party/basscss';
+@after-module './third-party';
